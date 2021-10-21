@@ -6,5 +6,5 @@ This application helps to manage information of Users such as First and last, ad
 We can Add/Remove Flights and Passengers
 
 The Frontend Technologies used : HTML5, CSS and Javascript,
-Backend Technologies used : Python(Django)
+Backend Technologies used : Python(Django),
 Database Technologies used : Sqllite3
