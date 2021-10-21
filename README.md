@@ -5,6 +5,6 @@ This application helps to manage information of Flights such as Flights Arrival 
 This application helps to manage information of Users such as First and last, address and booked flight information
 We can Add/Remove Flights and Passengers
 
-The Frontend Technologies used : HTML5, CSS and Javascript
-The Backend Technologies used : Python(Django)
-The Database Technologies used : Sqllite3
+The Frontend Technologies used : HTML5, CSS and Javascript,
+Backend Technologies used : Python(Django)
+Database Technologies used : Sqllite3
