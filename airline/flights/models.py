@@ -3,7 +3,7 @@ from django.db.models.deletion import CASCADE
 
 # Create your models here.
 
-class Airport(models.Model):                    # if we hover over imported class the vs code shows the parameters of class and parameters type or datatype of parameters taken by class and also shows return type
+class Airport(models.Model):                    
     code = models.CharField(max_length=3)
     city = models.CharField(max_length=64)
 
@@ -11,7 +11,7 @@ class Airport(models.Model):                    # if we hover over imported clas
         return f"{self.city} ({self.code})"
 
 class Flight(models.Model):
-    origin = models.ForeignKey(Airport, on_delete=models.CASCADE, related_name="departures")   # ForeignKey class inherits Airport class     
+    origin = models.ForeignKey(Airport, on_delete=models.CASCADE, related_name="departures")     
     destination = models.ForeignKey(Airport, on_delete=CASCADE, related_name="arrivals")
     duration = models.IntegerField()
  
